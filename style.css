@@ -8,10 +8,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.top-heaader {
-    background-color: #fff8da;
+.top-header {
+    background-color: #0e005c;
     height: auto;
     min-width: 100%;
+}
+
+nav {
+    position: sticky;
 }
 
 header {
@@ -23,7 +27,7 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 100px;
+    /* padding: 0 50px; */
 }
 
 .logo {
@@ -36,7 +40,11 @@ header nav {
     height: 90px;
     margin-right: 15px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.logo h1 {
+    color: #fff;
 }
 
 nav ul {
@@ -50,14 +58,22 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(79, 78, 78);
+    color: rgb(224, 224, 224);
     font-weight: 600;
     font-size: 18px;
-    transition: 0.4s ease-in-out;
+    transition: 0.1s ease-out;
 }
 
 nav ul li a:hover {
-    color: #000988;
+    /* background-color: #000988;
+    padding: 2px 5px;
+    border-radius: 10px;
+    color: #fff; */
+    border-bottom: 3px solid #fff;
+    border-radius: 2px;
+    /* padding: 0 0.5px; */
+    color: #fff;
+    font-weight: 700;
 }
 
 /* .btn {
@@ -72,3 +88,82 @@ nav ul li a:hover {
 .btn:hover {
     background-color: #31a25e;
 } */
+.top-banner {
+    /* height: 800px; */
+    width: 100%;
+}
+
+.course-heading {
+    font-size: 30px;
+    text-align: center;
+}
+
+.course-section {
+    margin-top: 50px;
+    height: 200vh;
+}
+
+.courses-1 {
+    display: flex;
+    /* width: 33%; */
+}
+
+.courses-2 {
+    display: flex;
+}
+
+.course-width {
+    width: 30%;
+    margin: 50px;
+}
+
+.course-width img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+/* .course-width img:hover {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+} */
+
+.course-width h1 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.course-width p {
+    padding-bottom: 10px;
+    margin: 5px 0;
+}
+
+.course-width a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0e005c;
+    padding: 4px 20px 6px 20px;
+    border-radius: 4px;
+    transition: 0.2s ease-in;
+}
+
+.course-width a:hover {
+    text-decoration: none;
+    color: #0e005c;
+    background-color: transparent;
+    padding: 4px 20px 6px 20px;
+    border-radius: 4px;
+    border: 1px solid #0e005c;
+}
+
+footer {
+    text-align: center;
+    height: 80px;
+    background-color: #0e005c;
+}
+
+footer p {
+    color: #fff;
+    /* padding-top: 25px; */
+}
