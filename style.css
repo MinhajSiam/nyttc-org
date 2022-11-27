@@ -150,9 +150,13 @@ nav ul li a:hover {
 }
 
 .course-width:hover {
-    box-shadow: 5px 5px 5px gray;
+    /* box-shadow: 5px 5px 5px gray;
     background-color: #f0f0f0;
-    border-radius: 15px;
+    border-radius: 15px; */
+    /* border-radius: 20px;
+    background: #e6e6e6;
+    box-shadow: 20px 20px 60px #e6e6e6,
+        -20px -20px 60px #ffffff; */
 }
 
 .course-width img {
@@ -188,6 +192,10 @@ nav ul li a:hover {
 .course-width a:hover {
     color: #fff;
     background-color: #06031b;
+    /* border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff; */
 }
 
 .link-btn {
