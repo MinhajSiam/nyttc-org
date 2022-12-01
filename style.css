@@ -12,6 +12,7 @@ body {
     background-color: #06031b;
     height: auto;
     min-width: 100%;
+    position: fixed;
 }
 
 header {
@@ -98,6 +99,7 @@ nav ul li a:hover {
     font-size: 30px;
     padding-top: 7%;
     padding-left: 7%;
+    padding-top: 200px;
 }
 
 .top-banner p {
@@ -252,10 +254,33 @@ footer p {
     border-radius: 20px;
 }
 
-.pgd-page {
+.pgd-first-section {
     display: flex;
 }
 
 .course-details {
     display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.course-outline {
+    margin-left: 10px;
+}
+
+.course-outline h1 {
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-nav {
+    position: fixed;
+    color: #000;
+}
+
+.head {
+    padding-top: 120px;
 }
