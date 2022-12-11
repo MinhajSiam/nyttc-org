@@ -376,6 +376,7 @@ svg {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
+    padding-bottom: 20px;
     border-top: 1px solid #ddd;
 }
 
